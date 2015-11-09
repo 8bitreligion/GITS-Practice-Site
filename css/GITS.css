@@ -1,0 +1,59 @@
+body {
+    /*background-image:  url ("images/gitsbackground.png");*/
+    background-color: black;
+    font-family: courier, monospace, arial, helvetica, sans-serif;
+}
+
+.right {
+    text-align: justify;
+    margin-right: 400px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.left {
+    text-align: justify;
+    margin-right: 400px;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #F5E1E0;
+;
+}
+
+h2 {
+    color: #307A29;
+    text-transform: uppercase;
+    -webkit-text-fill-color: #307A29;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px;
+}
+
+h1 {
+    color: #307A29 font-family: courier, monospace, arial, helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: #307A29;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px;
+}
+
+p {
+    color: #307A29 font-weight: bold;
+    line-height: 1.4em;
+    color: #307A29;
+    -webkit-text-fill-color: #307A29;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.20px;
+}
